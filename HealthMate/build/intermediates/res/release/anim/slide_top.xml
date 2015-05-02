@@ -1,0 +1,9 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <translate
+        android:duration="700"
+        android:fillAfter="true"
+        android:fromYDelta="0"
+        android:toYDelta="-20%p" />
+
+</set><!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/anim/slide_top.xml -->

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    android:orientation="vertical"
+    android:id="@+id/ll_new_grid"
+    android:weightSum="1">
+    
+    
+    <!--  <com.google.android.gms.ads.AdView
+        android:id="@+id/adMob"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id" />-->
+    
+    
+    
+ 
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".95"
+        android:weightSum="6" >
+
+        <LinearLayout
+            android:id="@+id/ll_sub1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/healthmate_green"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+            <!-- 
+            android:layout_height="0dp"
+            android:layout_weight="2" -->
+
+            <LinearLayout
+                android:id="@+id/ll_app_icon"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".499"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_app_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/hm_logo_white1" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@color/White" 
+                android:paddingLeft="5dp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_create_new"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".501"
+                android:orientation="vertical"
+                android:weightSum="1" >
+                
+               <LinearLayout
+                android:id="@+id/ll_create_new1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1"  
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/ll_add_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center">
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_add_profile"
+                        style="@style/CrescoTextView_tabs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/create_new"
+                        android:textColor="@color/White"/>
+                </LinearLayout>
+                
+                <View
+            		android:layout_width="fill_parent"
+            		android:layout_height="1dip"
+            		android:background="@color/White" />
+                
+
+                <LinearLayout
+                    android:id="@+id/ll_fb_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center">
+
+                    <!--  <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_fb_login"
+                        style="@style/CrescoTextView_tabs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="LogIn via Facebook" 
+                        android:textColor="@color/White"/>-->
+                    
+                    <com.facebook.widget.LoginButton
+                        android:id="@+id/tv_fb_login"
+                        style="@style/CrescoTextView_tabs"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/fb_login"
+                        android:textColor="@color/White"
+                        android:background="@color/healthmate_green"/>
+                </LinearLayout>
+                
+                </LinearLayout>
+
+                 <LinearLayout
+                android:id="@+id/ll_create_new2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+                
+                      <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_create_new"
+                        style="@style/CrescoTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:drawableLeft="@drawable/plus_white"
+                        android:drawablePadding="10dp"
+                        android:text="Add Profile" />
+                      
+                   </LinearLayout>
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+        style="@style/CrescoTextView_button"
+    	android:id="@+id/card_container"  
+    	android:layout_width="match_parent"  
+    	android:layout_height="wrap_content"  
+    	android:background="#15000000"  
+   		android:orientation="vertical" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/White" />
+
+
+
+        <LinearLayout
+            android:id="@+id/llsub2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <!-- 
+            android:layout_height="0dp"
+            android:layout_weight="4" -->
+            
+            
+
+            <GridView
+                android:id="@+id/profile_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:horizontalSpacing="1dp"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="1dp" 
+                android:listSelector="@color/transparent_healthmate_green"/>
+            
+            
+
+            <!-- android:columnWidth="90dp" -->
+        </LinearLayout>
+    </LinearLayout>
+    
+    
+    
+     <LinearLayout
+        android:id="@+id/ll_adMob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight=".05"
+        android:layout_gravity="top|center_horizontal"
+        android:gravity="top|center_horizontal">
+    
+        <com.google.android.gms.ads.AdView
+        android:id="@+id/adMob"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        android:gravity="top|center_horizontal"
+        android:layout_gravity="top|center_horizontal"
+        ads:adUnitId="@string/banner_ad_unit_id" />
+    
+    </LinearLayout>
+
+
+    <!--
+        android:layout_alignParentBottom="true"-->
+     
+     
+    
+
+</LinearLayout><!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/layout/new_grid.xml -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/transperent_black"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/ll_note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/transperent_black"
+        android:gravity="center">
+
+        <com.cresco.HealthMate.CrescoTextView
+            android:id="@+id/tv_note1"
+            style="@style/CrescoTextView_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:layout_gravity="center"
+            android:padding="10dp"/>
+
+
+        <com.cresco.HealthMate.CrescoTextView
+        android:id="@+id/tv_note2"
+        style="@style/CrescoTextView_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/gray"
+        android:layout_gravity="center"
+        android:padding="10dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

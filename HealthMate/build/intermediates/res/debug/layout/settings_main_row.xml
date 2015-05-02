@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:weightSum="2" >
+
+    <LinearLayout
+        android:id="@+id/ll_row"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingLeft="10dp" >
+
+        <com.cresco.HealthMate.CrescoTextView
+            android:id="@+id/tv_setting"
+            style="@style/ListTextViewNew"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/healthmate_green"/>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/layout/settings_main_row.xml -->

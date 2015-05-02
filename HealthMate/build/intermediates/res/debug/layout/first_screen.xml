@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1" 
+    android:background="@color/White">
+
+
+    <LinearLayout
+        android:id="@+id/ll_main_1to3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:orientation="vertical"
+            android:weightSum="1" >
+
+            <!-- profile count 1 -->
+
+            <LinearLayout
+                android:id="@+id/ll_part1_profile1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1" 
+                android:layout_gravity="center">
+
+               <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".2" />
+
+                <ImageView
+                    android:id="@+id/iv_part1_profile1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/profile_frame" />
+                
+                <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".15" />
+
+                <com.cresco.HealthMate.CrescoTextView
+                    android:id="@+id/tv_part1_profile1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Profile 1"
+                    android:textColor="@color/healthmate_green"
+                    android:textSize="25sp" />
+
+                
+            </LinearLayout>
+
+            <!-- profile count 2 and 3 -->
+
+            <LinearLayout
+                android:id="@+id/ll_part2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:id="@+id/ll_part2_profile1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:orientation="vertical"
+                    android:weightSum="1" >
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".2" />
+
+                    <ImageView
+                        android:id="@+id/iv_part2_profile1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" 
+                    	android:src="@drawable/p_frame" />
+                    
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".15" />
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_part2_profile1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Profile 1"
+                        android:textColor="@color/healthmate_green"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent_healthmate_green" />
+
+                <LinearLayout
+                    android:id="@+id/ll_part2_profile2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:orientation="vertical"
+                    android:weightSum="1" >
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".2" />
+
+                    <ImageView
+                        android:id="@+id/iv_part2_profile2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                    	android:src="@drawable/p_frame" />
+                    
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".15" />
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_part2_profile2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Profile 2"
+                        android:textColor="@color/healthmate_green"
+                        android:textSize="25sp" />
+
+                    
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/transparent_healthmate_green" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:orientation="vertical"
+            android:weightSum="1" >
+
+            <!-- profile count 1 & 2 -->
+
+            <LinearLayout
+                android:id="@+id/ll_part3_create"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.cresco.HealthMate.CrescoTextView
+                    android:id="@+id/tv_createNew1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/plus1"
+                     android:drawablePadding="10dp"
+                    android:text="@string/create_new"
+                    android:textColor="@color/healthmate_green"
+                    android:textSize="30sp" />
+            </LinearLayout>
+
+            <!-- profile count 3 -->
+
+            <LinearLayout
+                android:id="@+id/ll_part4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:id="@+id/ll_part4_profile3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:orientation="vertical"
+                    android:weightSum="1" >
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".3" />
+
+                    <ImageView
+                        android:id="@+id/iv_part4_profile3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                    	android:src="@drawable/p_frame"  />
+                    
+                     <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".15" />
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_part4_profile3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Profile 3"
+                        android:textColor="@color/healthmate_green"
+                        android:textSize="25sp" />
+
+                   
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent_healthmate_green" />
+
+                <LinearLayout
+                    android:id="@+id/ll_part4_create"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="vertical">
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_createNew2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:drawableLeft="@drawable/plus1"
+                        android:drawablePadding="10dp"
+                        android:text="@string/create_new"
+                        android:textColor="@color/healthmate_green"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 2nd layout for profile count 4 and 5 -->
+
+    <LinearLayout
+        android:id="@+id/ll_main_4to5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:id="@+id/ll_part5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".4"
+            android:orientation="vertical"
+            android:weightSum="1" >
+
+            <!-- profile count 4 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:id="@+id/ll_part5_profile1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:orientation="vertical"
+                    android:weightSum="1" >
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".2" />
+
+                    <ImageView
+                        android:id="@+id/iv_part5_profile1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                    	android:src="@drawable/p_frame"  />
+                    
+                     <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".15" />
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_part5_profile1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Profile 1"
+                        android:textColor="@color/healthmate_green"
+                        android:textSize="25sp" />
+
+                   
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent_healthmate_green" />
+
+                <LinearLayout
+                    android:id="@+id/ll_part5_profile2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:orientation="vertical"
+                    android:weightSum="1" >
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".2" />
+
+                    <ImageView
+                        android:id="@+id/iv_part5_profile2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                    	android:src="@drawable/p_frame" />
+                    
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".15" />
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_part5_profile2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Profile 2"
+                        android:textColor="@color/healthmate_green"
+                        android:textSize="25sp" />
+
+                    
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/transparent_healthmate_green" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".4"
+            android:orientation="vertical"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:id="@+id/ll_part6_profile3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:orientation="vertical"
+                    android:weightSum="1" >
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".2" />
+
+                    <ImageView
+                        android:id="@+id/iv_part6_profile3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                    	android:src="@drawable/p_frame"  />
+                    
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".15" />
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_part6_profile3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Profile 3"
+                        android:textColor="@color/healthmate_green"
+                        android:textSize="25sp" />
+
+                    
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent_healthmate_green" />
+
+                <LinearLayout
+                    android:id="@+id/ll_part6_profile4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:orientation="vertical"
+                    android:weightSum="1" >
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".2" />
+
+                    <ImageView
+                        android:id="@+id/iv_part6_profile4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                    	android:src="@drawable/p_frame" />
+                    
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight=".15" />
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:id="@+id/tv_part6_profile4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Profile 4"
+                        android:textColor="@color/healthmate_green"
+                        android:textSize="25sp" />
+
+                    
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="@color/transparent_healthmate_green" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:id="@+id/ll_part7_create"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:orientation="vertical"
+                android:weightSum="1" >
+
+                <com.cresco.HealthMate.CrescoTextView
+                    android:id="@+id/tv_createNew4"
+                    android:drawableLeft="@drawable/plus1"
+                    android:drawablePadding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/create_new"
+                    android:textColor="@color/healthmate_green"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_part7_create_more"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:visibility="gone"
+                android:weightSum="1" >
+
+                <LinearLayout
+                    android:id="@+id/ll_part7_1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center" >
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/create_new"
+                        android:textColor="@color/healthmate_green"
+                        android:textSize="25sp" 
+                        android:drawableLeft="@drawable/plus1"
+                        android:drawablePadding="10dp"
+                        android:id="@+id/tv_createNew3"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dip"
+                    android:layout_height="fill_parent"
+                    android:background="@color/transparent_healthmate_green" />
+
+                <LinearLayout
+                    android:id="@+id/ll_part7_2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center" >
+
+                    <com.cresco.HealthMate.CrescoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="See more profiles"
+                        android:textColor="@color/healthmate_green"
+                        android:textSize="25sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/layout/first_screen.xml -->

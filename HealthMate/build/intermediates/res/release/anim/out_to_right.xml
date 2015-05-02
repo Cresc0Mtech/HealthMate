@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="800"
+    android:fromXDelta="0"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:toXDelta="100%p" /><!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/anim/out_to_right.xml -->

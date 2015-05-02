@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <LinearLayout
+        android:id="@+id/ll_listsugar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1"  
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:id="@+id/tv_sdate1"
+            style="@style/ListTextView"
+            android:layout_width="0dp"
+            android:layout_weight=".28"
+            android:gravity="center_vertical|left"
+            android:textColor="@color/text_color" />
+
+        <TextView
+            android:id="@+id/tv_stime1"
+            style="@style/ListTextView"
+            android:layout_width="0dp"
+            android:layout_weight=".18"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/text_color" />
+
+        <TextView
+            android:id="@+id/tv_fasting"
+            style="@style/ListTextViewNew"
+            android:layout_width="0dp"
+            android:layout_weight=".18"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/text_color" />
+
+
+
+        <TextView
+            android:id="@+id/tv_stime2"
+            style="@style/ListTextView"
+            android:layout_width="0dp"
+            android:layout_weight=".18"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/text_color" />
+
+        <TextView
+            android:id="@+id/tv_pp"
+            style="@style/ListTextViewNew"
+            android:layout_width="0dp"
+            android:layout_weight=".18"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/text_color" />
+    </LinearLayout>
+    
+
+</LinearLayout>
+<!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/layout/sugar_list_row.xml -->

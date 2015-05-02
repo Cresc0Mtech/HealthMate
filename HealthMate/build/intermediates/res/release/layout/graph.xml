@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".4"
+            android:background="@color/healthmate_green"
+            android:orientation="horizontal"
+            android:weightSum="1" >
+
+            <LinearLayout
+                android:id="@+id/ll_blood_pressure"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:orientation="vertical"
+                android:weightSum="1" >
+
+                <com.cresco.HealthMate.CrescoTextView
+                    android:id="@+id/tv_blood_pressure"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Blood Pressure"
+                    android:textColor="@color/gray1" 
+                    style="@style/CrescoTextView_tabs"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_sugar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:orientation="vertical"
+                android:weightSum="1" >
+
+                <com.cresco.HealthMate.CrescoTextView
+                    android:id="@+id/tv_sugar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Sugar"
+                    android:textColor="@color/gray1"
+                    style="@style/CrescoTextView_tabs"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".4"
+            android:orientation="horizontal"
+            android:weightSum="1">
+            
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:gravity="left|center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".9"
+                android:gravity="center_vertical|left">
+            <com.cresco.HealthMate.CrescoButton
+                android:id="@+id/bt_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:drawableLeft="@drawable/plus"
+                android:drawablePadding="10dp"
+                android:gravity="left|center_vertical"
+                android:text="Add Reading"
+                android:textColor="@color/healthmate_green"
+                style="@style/CrescoTextView_button"
+                android:padding="10dp"/>
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1"
+                android:gravity="bottom">
+            <View 
+                android:layout_width="fill_parent"
+                android:layout_height="1dip"
+                android:background="@color/view_healthmate_green"
+                android:layout_gravity="bottom"/>
+            </LinearLayout>
+            
+            </LinearLayout>
+            
+            <LinearLayout 
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"
+                android:gravity="left|center_vertical"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".9"
+                android:gravity="left|center_vertical">
+                
+            <com.cresco.HealthMate.CrescoButton
+                android:id="@+id/bt_showgraph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:drawablePadding="0dp"
+                android:drawableRight="@drawable/graph"
+                android:gravity="left|center_vertical"
+                android:text="View Graph"
+                android:textColor="@color/healthmate_green"  
+                style="@style/CrescoTextView_button"
+                android:padding="0dp"/>
+            </LinearLayout>
+            
+                <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1"
+                android:gravity="bottom">
+             <View 
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:background="@color/view_healthmate_green"
+                android:layout_gravity="bottom"/>
+             </LinearLayout>
+            
+            </LinearLayout>
+        </LinearLayout>
+        
+        
+    <LinearLayout
+        android:id="@+id/linearChart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/view"
+        android:layout_marginTop="50dp"
+        android:gravity="bottom" 
+        android:orientation="horizontal"
+        android:layout_weight="4.2">
+    </LinearLayout>
+    
+    </LinearLayout>
+
+    <!--  <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_alignParentBottom="true"
+        android:background="#00FF00" />-->
+
+</RelativeLayout><!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/layout/graph.xml -->

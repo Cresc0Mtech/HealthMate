@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/systolic_ticked" android:state_checked="true"/>
+    <item android:drawable="@drawable/systolic_unticked" android:state_checked="false"/>
+
+</selector>
+<!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/drawable-mdpi/cb_sys_selector.xml -->

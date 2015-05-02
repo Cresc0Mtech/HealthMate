@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:weightSum="1">
+    
+    
+    <TextView
+            android:id="@+id/tv_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp" 
+	        android:layout_weight=".05" 
+            android:gravity="center"
+            android:text="Add BP Measures"/>
+    
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:orientation="horizontal"
+    	android:layout_weight=".1"
+    	android:weightSum="1">
+    
+	    <EditText
+	            android:id="@+id/et_date"
+		        android:layout_width="0dp"
+		         android:focusable="false"
+		        android:layout_height="wrap_content" 
+		        android:layout_weight=".3" 
+	            android:gravity="left"
+	            android:hint="Date"
+	            android:textSize="15sp"/>
+	    
+	    <EditText
+	            android:id="@+id/et_time"
+		        android:layout_width="0dp"
+		         android:focusable="false"
+		        android:layout_height="wrap_content" 
+		        android:layout_weight=".26" 
+	            android:gravity="left"
+	            android:hint="Time"
+	            android:textSize="15sp"/>
+	    
+	    <EditText
+	            android:id="@+id/et_low"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content" 
+		        android:layout_weight=".22" 
+	            android:gravity="left"
+	            android:hint="Low Range"
+	            android:textSize="15sp"/>
+	    
+	    <EditText
+	            android:id="@+id/et_high"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content" 
+		        android:layout_weight=".22" 
+	            android:gravity="left"
+	            android:hint="High Range"
+	            android:textSize="15sp"/>
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:orientation="horizontal"
+    	android:layout_weight=".05"
+    	android:weightSum="1">
+    
+	    <Button
+	            android:id="@+id/bt_cancel"
+		        android:layout_width="0dp"
+		         android:focusable="false"
+		        android:layout_height="match_parent" 
+		        android:layout_weight=".2" 
+	            android:gravity="center"
+	            android:text="Cancel"/>
+	    
+	     <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent" 
+	        android:layout_weight=".15"/>
+	    
+	     <Button
+	            android:id="@+id/bt_save"
+		        android:layout_width="0dp"
+		         android:focusable="false"
+		        android:layout_height="match_parent" 
+		        android:layout_weight=".2" 
+	            android:gravity="center"
+	            android:text="Save"/>
+	     
+	     <TextView
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent" 
+	        android:layout_weight=".15"/>
+	     
+	     <Button
+	            android:id="@+id/bt_opengraph"
+		        android:layout_width="0dp"
+		         android:focusable="false"
+		        android:layout_height="match_parent" 
+		        android:layout_weight=".3" 
+	            android:gravity="center"
+	            android:text="Open Graph"/>
+	    
+	</LinearLayout>
+    
+    
+    <LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:orientation="horizontal"
+    	android:layout_weight=".8"
+    	android:weightSum="1">
+    
+	    <ListView
+	            android:id="@+id/lv_list"
+		        android:layout_width="match_parent"
+		         android:focusable="false"
+		        android:layout_height="wrap_content"
+	            android:gravity="center"/>
+	 
+	 </LinearLayout>
+	 
+    
+        
+    
+
+</LinearLayout>

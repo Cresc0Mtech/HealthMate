@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cresco.HealthMate.CrescoTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text1"
+    style="@style/Cresco_SpinnerHeight"
+    android:layout_width="fill_parent"
+    android:ellipsize="marquee"
+    android:gravity="center"
+    android:singleLine="true" 
+    android:hint="@color/transperent_white"/>
+
+<!-- android:textAppearance="?android:attr/textAppearanceLargePopupMenu" -->
+<!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/layout/gender_dropdown.xml -->

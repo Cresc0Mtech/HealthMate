@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_row"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:id="@+id/ll_groupRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.cresco.HealthMate.CrescoTextView
+            android:id="@+id/tv_groupName"
+            style="@style/ListTextView"
+            android:layout_width="fill_parent"
+            android:gravity="center_vertical"
+            android:textColor="@color/healthmate_green"
+            android:textStyle="bold" 
+        	android:paddingLeft="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

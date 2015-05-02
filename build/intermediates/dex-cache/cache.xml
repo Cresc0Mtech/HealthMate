@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\comp1\AndroidstudioProjects\Graph\graph\libs\opencsv-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0ffd01065bc3fe571e1a4eb7014a03333f0663d">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\opencsv-2.3-3a372a0506f204c95d006501c3982568239e9da2.jar" />
+    </item>
+    <item
+        jar="D:\A\adt-bundle-windows-x86_64\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-c0b3bd7c3d277ff7aab5bc51e7dff9edc57520ca.jar" />
+    </item>
+    <item
+        jar="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-a7cacb9b1b4f13ec8068c5df4f2571e13e992d54.jar" />
+    </item>
+    <item
+        jar="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\exploded-aar\Graph\supertoasts\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="aa1535a9b7f42cc796f8c37510a83c6e6736af6b">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\classes-6c701fb3edb4069c891f7120d77c4fd9659ff3ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\classes-52bc678fd0ef6ff4b67a3f925325bb26f49b6364.jar" />
+    </item>
+    <item
+        jar="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\exploded-aar\Graph\facebookSDK\unspecified\libs\bolts-android-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="91c20388c9a45f62b5ed8fe0502bb76ff6251fc7">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\bolts-android-1.1.2-3156f0605c8ca357867b1eff18eb29459289f6d0.jar" />
+    </item>
+    <item
+        jar="C:\Users\comp1\AndroidstudioProjects\Graph\graph\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\achartengine-1.1.0-8c0f240579bbd1ccd9bebb58df9b184e22d5078b.jar" />
+    </item>
+    <item
+        jar="C:\Users\comp1\AndroidstudioProjects\Graph\graph\libs\gcm.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\gcm-0da5c4863acd8a0e64df5429ec0136ee7505b18a.jar" />
+    </item>
+    <item
+        jar="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\classes-cbd71709d3f47a49731fecd747197efa763a8188.jar" />
+    </item>
+    <item
+        jar="C:\Users\comp1\AndroidstudioProjects\Graph\graph\libs\droidText.0.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="07b558272013be275e7071969127c87eaf44bde8">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\droidText.0.5-04b00b45a1a947320c4f1c4eda4b1f89dcd276ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\exploded-aar\Graph\facebookSDK\unspecified\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="58d76b36f0fce7ac870d0d3acc06cf9ac1cb6550">
+        <dex dex="C:\Users\comp1\AndroidstudioProjects\Graph\graph\build\intermediates\pre-dexed\debug\classes-27a8d6855df588b667502f804cd4bacf3c19559d.jar" />
+    </item>
+
+</items>

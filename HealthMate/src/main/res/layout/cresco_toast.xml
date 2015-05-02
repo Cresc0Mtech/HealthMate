@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="horizontal"
+    android:padding="10dp" >
+    
+    <!--  android:background="@drawable/rectangle_autocomplete"-->
+
+    <ImageView
+        android:id="@+id/imageView1"
+     
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+    
+       <!--  android:src="@drawable/maccounts_menu" -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <!--android:textColor="@color/cresco_header"-->
+
+</LinearLayout>

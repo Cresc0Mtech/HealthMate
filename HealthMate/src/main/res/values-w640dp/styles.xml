@@ -1,0 +1,138 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+   
+    <style name="AppTheme" parent="android:Theme.Holo.Light" />
+    
+    <style name="ListTextView" parent="@android:style/TextAppearance">
+        <item name="android:textSize">13sp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+    
+    <style name="ListTextViewNew" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+    
+    <style name="CrescoTextView_button" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+     <style name="CrescoTextView_button1" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15sp</item>
+    </style>
+    
+    <style name="CrescoTextView_button_graph" parent="@android:style/TextAppearance">
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingLeft">60dp</item>
+    </style>
+    
+    <style name="Cresco_SpinnerHeight">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorHighlight">@color/White</item>
+        <item name="android:textColor">@color/healthmate_green</item>
+        <item name="android:textColorHint">@color/transperent_white</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center_vertical|right</item>
+</style>
+
+    <style name="Cresco_SpinnerHeight_new">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorHighlight">@color/White</item>
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textColorHint">@color/gray8</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center_vertical|right</item>
+	</style>
+
+    
+    <style name="Cresco_EditText" parent="@style/EditTextAppTheme">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColorHint">@color/disabled_healthmate_green</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+    
+    
+    <style name="Cresco_EditTextNew" parent="@style/EditTextAppTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColorHint">@color/disabled_healthmate_green</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:gravity">center_vertical|left</item>
+    </style>
+    
+    <style name="adnoteScreenTitle">
+        <item name="android:layout_height">100dp</item>
+    </style>
+    
+    <style name="CrescoTextView_create" parent="@android:style/TextAppearance">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="CrescoTextView_note" parent="@android:style/TextAppearance">
+        <item name="android:textSize">30sp</item>
+    </style>
+    
+    <style name="Cresco_EditText_healthmateGreen" parent="@style/healthmate_EditTextAppTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textColorHint">@color/gray8</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="Cresco_EditText_date" parent="@style/date_EditTextAppTheme">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColorHint">@color/gray8</item>
+        <item name="android:gravity">center</item>
+    </style>
+   
+     <style name="CrescoTextView" parent="@android:style/TextAppearance">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+    
+     <style name="CrescoTextView_tabs" parent="@android:style/TextAppearance">
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+     <style name="main_CrescoTextView" parent="@android:style/TextAppearance">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/healthmate_green</item>
+    </style>
+    
+     <style name="Cresco_DialogTextView" parent="@android:Theme.Light">
+        <item name="android:textColor">@color/Black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+     <style name="Cresco_checkBoxStyle" parent="android:Theme.Holo.Light">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+     <style name="ll_calci" parent="@android:Theme.Light">
+        <item name="android:paddingLeft">100dp</item>
+        <item name="android:paddingRight">100dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    
+     <style name="CrescoTextView_calci" parent="@android:style/TextAppearance">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/White</item>
+         <item name="android:layout_width">100dp</item>
+         <item name="android:layout_height">100dp</item>
+         <item name="android:gravity">center</item>
+    </style>
+    
+     <style name="CrescoTextView_calci1" parent="@android:style/TextAppearance">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/White</item>
+         <item name="android:layout_width">200dp</item>
+         <item name="android:layout_height">100dp</item>
+         <item name="android:gravity">center</item>
+    </style>
+</resources>

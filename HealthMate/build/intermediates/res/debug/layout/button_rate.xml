@@ -1,0 +1,37 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="1" >
+
+        <Button
+            android:id="@+id/cb_shareApp"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".5"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="No"
+            android:lines="2"
+            android:textColor="@color/healthmate_green" />
+
+        <Button
+            android:id="@+id/cb_rate"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight=".5"
+            android:background="@color/white"
+            android:gravity="center"
+            android:text="Yes"
+            android:lines="2"
+            android:textColor="@color/healthmate_green" />
+    </TableRow>
+
+</TableLayout><!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/layout/button_rate.xml -->

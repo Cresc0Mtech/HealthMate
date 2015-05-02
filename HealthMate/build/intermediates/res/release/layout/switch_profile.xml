@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="1"     
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp">
+    
+    
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".3"/>
+
+    <LinearLayout
+        android:id="@+id/ll_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1" 
+        android:background="@color/healthmate_green">
+
+        <com.cresco.HealthMate.CrescoTextView
+            android:id="@+id/tv_switch"
+            style="@style/CrescoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Swich To Profile" 
+            android:gravity="center"
+            android:textColor="@color/White"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"/>
+        
+        <!-- <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/White"/> -->
+
+        <ListView
+            android:id="@+id/lv_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:animationCache="false"
+            android:paddingBottom="10dp"
+            android:divider="@color/White"
+            android:paddingTop="10dp"
+            android:scrollingCache="false"
+            android:smoothScrollbar="true" 
+            android:listSelector="@color/transparent_healthmate_green"/>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/layout/switch_profile.xml -->

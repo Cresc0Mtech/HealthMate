@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="@color/White"
+    android:weightSum="1">
+
+    <LinearLayout
+    	android:id="@+id/ll_grid_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1" 
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="1" >
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1" />
+
+            <LinearLayout 
+                android:id="@+id/ll_grid_image"
+               android:layout_width="match_parent"
+            	android:layout_height="0dp"
+            	android:layout_weight=".5"
+            	android:orientation="vertical" 
+            	android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_profile_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/p_frame" />
+            </LinearLayout>
+
+            
+                
+                <LinearLayout
+                android:id="@+id/ll_grid_name"
+               	android:layout_width="match_parent"
+            	android:layout_height="0dp"
+            	android:layout_weight=".3"
+            	android:orientation="vertical" 
+            	android:gravity="center">
+
+            <TextView
+                style="@style/CrescoTextView"
+                android:id="@+id/tv_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/healthmate_green"/>
+            </LinearLayout>
+        
+        
+      	<TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1" />
+
+         
+          <LinearLayout
+            android:id="@+id/ll_item_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"
+            android:orientation="horizontal"
+            android:weightSum="1" 
+            android:background="@color/healthmate_green"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5" 
+                android:gravity="center">
+
+                <com.cresco.HealthMate.CrescoTextView
+                    android:id="@+id/tv_edit_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/White"
+                    android:textSize="20sp"
+                    android:text="Edit" />
+            </LinearLayout>
+            
+            <View 
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@color/White"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".5"  
+                android:gravity="center">
+
+                <com.cresco.HealthMate.CrescoTextView
+                    android:id="@+id/tv_delete_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/White"
+                    android:textSize="20sp" 
+                    android:text="Delete"/>
+            </LinearLayout>
+        </LinearLayout>
+        </LinearLayout>
+        
+          <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@color/transparent_healthmate_green"/>
+    </LinearLayout>
+    
+     <View 
+                android:layout_width="1dip"
+                android:layout_height="fill_parent"
+                android:background="@color/transparent_healthmate_green"/>
+    
+     
+     
+
+</LinearLayout>

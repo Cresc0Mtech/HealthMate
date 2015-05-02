@@ -1,0 +1,233 @@
+# view AndroidManifest.xml #generated:69
+-keep class com.cresco.HealthMate.Add_Profile { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.cresco.HealthMate.Add_Readings { <init>(...); }
+
+# view AndroidManifest.xml #generated:87
+-keep class com.cresco.HealthMate.AdnoteSettings { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.cresco.HealthMate.Create_profile_choice { <init>(...); }
+
+# view res/layout/createprofile_choice.xml #generated:16
+# view res/layout/graph.xml #generated:121
+# view res/layout/graph.xml #generated:79
+-keep class com.cresco.HealthMate.CrescoButton { <init>(...); }
+
+# view res/layout/add_profile.xml #generated:109
+# view res/layout/add_profile.xml #generated:132
+# view res/layout/add_profile.xml #generated:175
+# view res/layout/add_profile.xml #generated:241
+# view res/layout/add_profile.xml #generated:264
+# view res/layout/add_profile.xml #generated:321
+# view res/layout/add_profile.xml #generated:344
+# view res/layout/add_profile.xml #generated:368
+# view res/layout/add_profile.xml #generated:84
+# view res/layout/add_readings.xml #generated:187
+# view res/layout/add_readings.xml #generated:252
+# view res/layout/add_readings.xml #generated:275
+# view res/layout/add_readings.xml #generated:364
+# view res/layout/add_readings.xml #generated:43
+# view res/layout/add_readings.xml #generated:64
+# view res/layout/child.xml #generated:137
+# view res/layout/child.xml #generated:56
+# view res/layout/export_dialog.xml #generated:69
+# view res/layout/export_dialog.xml #generated:88
+# view res/layout/group.xml #generated:222
+# view res/layout/group.xml #generated:236
+# view res/layout/group.xml #generated:71
+# view res/layout/group.xml #generated:87
+# view res/layout/measurement_row.xml #generated:138
+# view res/layout/measurement_row.xml #generated:90
+# view res/layout/measurement_row.xml #generated:99
+# view res/layout/profile_measures.xml #generated:1263
+# view res/layout/profile_measures.xml #generated:1290
+# view res/layout/profile_measures.xml #generated:472
+# view res/layout/profile_measures.xml #generated:494
+# view res/layout/profile_measures.xml #generated:526
+# view res/layout/profile_measures.xml #generated:558
+# view res/layout/profile_measures.xml #generated:589
+# view res/layout/profile_measures.xml #generated:620
+# view res/layout/profile_measures.xml #generated:705
+# view res/layout/profile_measures.xml #generated:725
+# view res/layout/profile_measures.xml #generated:753
+# view res/layout/profile_measures.xml #generated:794
+# view res/layout/profile_measures.xml #generated:822
+# view res/layout/profile_measures.xml #generated:851
+# view res/layout/profile_measures.xml #generated:872
+-keep class com.cresco.HealthMate.CrescoEditText { <init>(...); }
+
+# view res/layout/about_adnote_child.xml #generated:13
+# view res/layout/about_adnote_group.xml #generated:15
+# view res/layout/add_profile.xml #generated:38
+# view res/layout/add_readings.xml #generated:9
+# view res/layout/child.xml #generated:118
+# view res/layout/child.xml #generated:15
+# view res/layout/child.xml #generated:23
+# view res/layout/child.xml #generated:31
+# view res/layout/delete_dialog.xml #generated:36
+# view res/layout/delete_dialog.xml #generated:67
+# view res/layout/export_dialog.xml #generated:38
+# view res/layout/first_screen.xml #generated:101
+# view res/layout/first_screen.xml #generated:124
+# view res/layout/first_screen.xml #generated:136
+# view res/layout/first_screen.xml #generated:141
+# view res/layout/first_screen.xml #generated:177
+# view res/layout/first_screen.xml #generated:209
+# view res/layout/first_screen.xml #generated:221
+# view res/layout/first_screen.xml #generated:226
+# view res/layout/first_screen.xml #generated:251
+# view res/layout/first_screen.xml #generated:303
+# view res/layout/first_screen.xml #generated:315
+# view res/layout/first_screen.xml #generated:320
+# view res/layout/first_screen.xml #generated:345
+# view res/layout/first_screen.xml #generated:357
+# view res/layout/first_screen.xml #generated:36
+# view res/layout/first_screen.xml #generated:362
+# view res/layout/first_screen.xml #generated:403
+# view res/layout/first_screen.xml #generated:415
+# view res/layout/first_screen.xml #generated:420
+# view res/layout/first_screen.xml #generated:445
+# view res/layout/first_screen.xml #generated:457
+# view res/layout/first_screen.xml #generated:462
+# view res/layout/first_screen.xml #generated:48
+# view res/layout/first_screen.xml #generated:497
+# view res/layout/first_screen.xml #generated:525
+# view res/layout/first_screen.xml #generated:53
+# view res/layout/first_screen.xml #generated:549
+# view res/layout/first_screen.xml #generated:84
+# view res/layout/first_screen.xml #generated:96
+# view res/layout/gender_dropdown.xml #generated:2
+# view res/layout/gender_row.xml #generated:8
+# view res/layout/graph.xml #generated:29
+# view res/layout/graph.xml #generated:47
+# view res/layout/grid_item.xml #generated:112
+# view res/layout/grid_item.xml #generated:91
+# view res/layout/group.xml #generated:15
+# view res/layout/group.xml #generated:174
+# view res/layout/group.xml #generated:182
+# view res/layout/group.xml #generated:190
+# view res/layout/group.xml #generated:198
+# view res/layout/group.xml #generated:23
+# view res/layout/group.xml #generated:31
+# view res/layout/group.xml #generated:39
+# view res/layout/group.xml #generated:47
+# view res/layout/help_healthmate.xml #generated:26
+# view res/layout/new_grid.xml #generated:137
+# view res/layout/new_grid.xml #generated:86
+# view res/layout/profile_measures.xml #generated:1002
+# view res/layout/profile_measures.xml #generated:1016
+# view res/layout/profile_measures.xml #generated:1021
+# view res/layout/profile_measures.xml #generated:106
+# view res/layout/profile_measures.xml #generated:1224
+# view res/layout/profile_measures.xml #generated:1280
+# view res/layout/profile_measures.xml #generated:1323
+# view res/layout/profile_measures.xml #generated:1384
+# view res/layout/profile_measures.xml #generated:325
+# view res/layout/profile_measures.xml #generated:336
+# view res/layout/profile_measures.xml #generated:347
+# view res/layout/profile_measures.xml #generated:358
+# view res/layout/profile_measures.xml #generated:369
+# view res/layout/profile_measures.xml #generated:388
+# view res/layout/profile_measures.xml #generated:399
+# view res/layout/profile_measures.xml #generated:411
+# view res/layout/profile_measures.xml #generated:88
+# view res/layout/profile_measures.xml #generated:905
+# view res/layout/profile_measures.xml #generated:920
+# view res/layout/profile_measures.xml #generated:926
+# view res/layout/profile_measures.xml #generated:932
+# view res/layout/profile_measures.xml #generated:938
+# view res/layout/profile_measures.xml #generated:952
+# view res/layout/profile_measures.xml #generated:958
+# view res/layout/profile_measures.xml #generated:964
+# view res/layout/profile_measures.xml #generated:970
+# view res/layout/profile_measures.xml #generated:984
+# view res/layout/profile_measures.xml #generated:990
+# view res/layout/profile_measures.xml #generated:996
+# view res/layout/profile_row.xml #generated:30
+# view res/layout/progressbar_round.xml #generated:18
+# view res/layout/rate_dialog.xml #generated:36
+# view res/layout/rate_dialog.xml #generated:67
+# view res/layout/settings_main_row.xml #generated:16
+# view res/layout/share_dialog.xml #generated:36
+# view res/layout/share_dialog.xml #generated:67
+# view res/layout/spinner_dropdown.xml #generated:2
+# view res/layout/spinner_row.xml #generated:8
+# view res/layout/switch_profile.xml #generated:25
+# view res/layout/titlebar_activity.xml #generated:45
+# view res/layout/titlebar_activity.xml #generated:73
+# view res/layout/welcome_note.xml #generated:18
+# view res/layout/welcome_note.xml #generated:29
+-keep class com.cresco.HealthMate.CrescoTextView { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.cresco.HealthMate.Custom_keyboard { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.cresco.HealthMate.Exit_Ad { <init>(...); }
+
+# view res/layout/profile_measures.xml #generated:1062
+-keep class com.cresco.HealthMate.ExpandingListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.cresco.HealthMate.GCMIntentServiceNew { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.cresco.HealthMate.GcmBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.cresco.HealthMate.GraphActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.cresco.HealthMate.HealthMate_Landing { <init>(...); }
+
+# view AndroidManifest.xml #generated:91
+-keep class com.cresco.HealthMate.Help_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.cresco.HealthMate.License_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.cresco.HealthMate.MeasurementList_Profile { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.cresco.HealthMate.Measurement_Graph { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.cresco.HealthMate.MyApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.cresco.HealthMate.New_Grid { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.cresco.HealthMate.Switch_Profile { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.cresco.HealthMate.TitleBar_Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.cresco.HealthMate.Welcome_Note { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.facebook.LoginActivity { <init>(...); }
+
+# view res/layout/com_facebook_usersettingsfragment.xml #generated:48
+# view res/layout/createprofile_choice.xml #generated:26
+# view res/layout/facebook.xml #generated:7
+# view res/layout/new_grid.xml #generated:118
+-keep class com.facebook.widget.LoginButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.google.android.gms.ads.AdActivity { <init>(...); }
+
+# view res/layout/add_profile.xml #generated:448
+# view res/layout/adnote_settings.xml #generated:20
+# view res/layout/help_healthmate.xml #generated:48
+# view res/layout/new_grid.xml #generated:207
+# view res/layout/profile_measures.xml #generated:1422
+-keep class com.google.android.gms.ads.AdView { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class org.achartengine.GraphicalActivity { <init>(...); }
+

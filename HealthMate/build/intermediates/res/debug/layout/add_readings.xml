@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#80FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="1" >
+
+    <com.cresco.HealthMate.CrescoTextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:background="#80FFFFFF"
+        android:gravity="center"
+        android:text="Add Readings"
+        android:textColor="@color/Black" />
+
+    <LinearLayout
+        android:id="@+id/ll_add_pressure"
+        style="@style/ListTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:weightSum="1" >
+
+        <LinearLayout
+            android:id="@+id/ll_msr1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/healthmate_green"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1" >
+
+            <LinearLayout
+                style="@style/ListTextView"
+                android:layout_width="0dp"
+                android:layout_weight=".36"
+                android:background="@color/healthmate_green" >
+
+                <com.cresco.HealthMate.CrescoEditText
+                    android:id="@+id/et_date"
+                    style="@style/Cresco_EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:focusable="false"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:hint="Date"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/White"
+                    android:textColorHint="@color/gray8" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ListTextView"
+                android:layout_width="0dp"
+                android:layout_weight=".15"
+                android:background="@color/healthmate_green" >
+
+                <com.cresco.HealthMate.CrescoEditText
+                    android:id="@+id/et_time"
+                    style="@style/Cresco_EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:focusable="false"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:hint="Time"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/White"
+                    android:textColorHint="@color/gray8"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ListTextView"
+                android:layout_width="0dp"
+                android:layout_weight=".17"
+                android:background="@color/healthmate_green" >
+
+                <!--
+                      <com.example.graph.CrescoEditText
+                    android:id="@+id/et_sys"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/Cresco_EditText"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:hint="Systolic"
+                    android:singleLine="true"
+                    android:textColor="@color/White"
+                    android:textColorHint="@color/gray8"
+                    android:textStyle="bold" 
+                    android:inputType="number" 
+                	android:imeOptions="actionNext"
+                	 android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+                -->
+
+                <Spinner
+                    android:id="@+id/sp_sys"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="Systolic"
+                    android:singleLine="true"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ListTextView"
+                android:layout_width="0dp"
+                android:layout_weight=".17"
+                android:background="@color/healthmate_green" >
+
+                <!--
+                     <com.example.graph.CrescoEditText
+                    android:id="@+id/et_dias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/Cresco_EditText"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:hint="Diastolic"
+                    android:singleLine="true"
+                    android:textColor="@color/White"
+                    android:textColorHint="@color/gray8"
+                    android:textStyle="bold" 
+                    android:inputType="number" 
+                	android:imeOptions="actionNext"
+                	 android:paddingLeft="5dp"
+                    android:paddingRight="5dp"/>
+                -->
+
+                <Spinner
+                    android:id="@+id/sp_dias"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="Systolic"
+                    android:singleLine="true"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ListTextView"
+                android:layout_width="0dp"
+                android:layout_weight=".17"
+                android:background="@color/healthmate_green" >
+
+                <!--
+                      <com.example.graph.CrescoEditText
+                    android:id="@+id/et_pulse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/Cresco_EditText"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:hint="Pulse"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/White"
+                    android:textColorHint="@color/gray8"
+                    android:textStyle="bold" 
+                    android:inputType="number" 
+                	android:imeOptions="actionNext"/>
+                -->
+
+                <Spinner
+                    android:id="@+id/sp_pulse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:hint="Systolic"
+                    android:singleLine="true"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_msr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/healthmate_green"
+            android:orientation="horizontal" >
+
+            <com.cresco.HealthMate.CrescoEditText
+                android:id="@+id/et_remark"
+                style="@style/Cresco_EditText"
+                android:layout_width="0dp"
+                android:layout_weight=".4"
+                android:gravity="center_vertical|center_horizontal"
+                android:hint="Remark"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords|textNoSuggestions"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:singleLine="true"
+                android:textColor="@color/White"
+                android:textColorHint="@color/gray8"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/sp_pos"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                android:inputType="textCapWords"
+                android:textColor="@color/White" />
+
+            <Spinner
+                android:id="@+id/sp_loc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".3"
+                android:inputType="textCapWords"
+                android:textColor="@color/White" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_add_sugar"
+        style="@style/ListTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:background="#80FFFFFF"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="1" >
+
+        <!-- android:background="#8000000" -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/healthmate_green"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1" >
+
+            <LinearLayout
+                style="@style/ListTextView"
+                android:layout_width="0dp"
+                android:layout_weight=".4"
+                android:background="@color/healthmate_green">
+
+
+                <com.cresco.HealthMate.CrescoEditText
+                    android:id="@+id/et_sdate"
+                    style="@style/Cresco_EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:focusable="false"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:hint="Date"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/White"
+                    android:textColorHint="@color/gray8" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ListTextView"
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:background="@color/healthmate_green" >
+>
+
+                <com.cresco.HealthMate.CrescoEditText
+                    android:id="@+id/et_stime"
+                    style="@style/Cresco_EditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:focusable="false"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:hint="Time"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true"
+                    android:textColor="@color/White"
+                    android:textColorHint="@color/gray8"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ListTextView"
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:background="@color/healthmate_green" >
+>
+
+                <!--
+                     <com.example.graph.CrescoEditText
+                    android:id="@+id/et_fasting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/Cresco_EditText"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:hint="Fasting"
+                    android:singleLine="true"
+                    android:textColor="@color/White"
+                    android:textColorHint="@color/gray8"
+                    android:textStyle="bold" 
+                    android:inputType="number" 
+                	android:imeOptions="actionNext"/>
+                -->
+
+                <Spinner
+                    android:id="@+id/sp_fasting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ListTextView"
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:background="@color/healthmate_green" >
+>
+
+                <!--
+                     <com.example.graph.CrescoEditText
+                    android:id="@+id/et_pp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    style="@style/Cresco_EditText"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:hint="PP"
+                    android:singleLine="true"
+                    android:textColor="@color/White"
+                    android:textColorHint="@color/gray8"
+                    android:textStyle="bold" 
+                    android:inputType="number" 
+                	android:imeOptions="actionNext"/>
+                -->
+
+                <Spinner
+                    android:id="@+id/sp_pp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/White" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/healthmate_green"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <com.cresco.HealthMate.CrescoEditText
+                android:id="@+id/et_sremark"
+                style="@style/Cresco_EditText"
+                android:layout_width="0dp"
+                android:layout_weight=".4"
+                android:gravity="center_vertical|center_horizontal"
+                android:hint="Remark"
+                android:imeOptions="actionDone"
+                android:inputType="textCapWords|textNoSuggestions"
+                android:singleLine="true"
+                android:textColor="@color/White"
+                android:textColorHint="@color/gray8"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/layout/add_readings.xml -->

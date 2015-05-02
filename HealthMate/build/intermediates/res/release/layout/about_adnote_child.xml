@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+   
+    <LinearLayout
+        android:id="@+id/ll_row"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp">
+
+        <com.cresco.HealthMate.CrescoTextView
+            android:id="@+id/tv_childText"
+            style="@style/ListTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="10dp"
+            android:textColor="@color/Black" />
+    </LinearLayout>
+   
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/transparent_healthmate_green" />
+
+</LinearLayout><!-- From: file:/C:/Users/comp1/AndroidstudioProjects/Graph/graph/src/main/res/layout/about_adnote_child.xml -->
